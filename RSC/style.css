@@ -1,0 +1,69 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: radial-gradient(circle, #fff, #bbb);
+ }
+
+
+.carousel-inner{
+    max-height: 40rem;   
+}
+#galeria .col-lg-4{
+    margin: 0 !important;
+    padding: 25px;
+
+}
+#galeria img {
+    width: 100%;
+    height: 400px;
+}
+#galeria img:hover{
+    border: 5px solid #f7f7f7;
+}
+
+
+.imagenes_departamento_rio_santa_cruz:hover{
+    filter: opacity(0.9);
+    transform: scale(1.04);
+}
+
+.deptoh1{
+    display: flex;
+    justify-content: center;
+    background-color: beige;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+}
+.deptoh1p{
+    background-color: lightslategray;
+    margin: 20px;
+    padding: 20px;
+
+}
+.acerca_de_el_calafate{
+    display: flex;
+    justify-content: center;
+    background-color: beige;
+    border-radius: 25px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: black 5px;
+}
+.acerca_del_glaciar_perito_moreno{
+    margin: 20px;
+    padding: 20px;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+}
+.actividades_en_calafate{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: beige;
+    border-radius: 25px;
+}
