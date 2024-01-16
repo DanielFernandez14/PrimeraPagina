@@ -19,7 +19,7 @@ body{
     height: 400px;
 }
 #galeria img:hover{
-    border: 5px solid #f7f7f7;
+    border: 5px solid #afafaf;
 }
 
 
@@ -44,17 +44,17 @@ body{
 }
 .acerca_de_el_calafate{
     display: flex;
+    text-align: center;
     justify-content: center;
     background-color: beige;
     border-radius: 25px;
     margin: 20px;
     padding: 20px;
-    border-radius: black 5px;
 }
 .acerca_del_glaciar_perito_moreno{
     margin: 20px;
     padding: 20px;
-    background-color: beige;
+    background-color: rgb(211, 242, 232);
     display: flex;
     justify-content: center;
     border-radius: 25px;
@@ -66,4 +66,14 @@ body{
     padding: 20px;
     background-color: beige;
     border-radius: 25px;
+}
+.piedepagina{
+    background-color: black;
+    font-size: 10px;
+}
+.acerca_del_glaciar_perito_morenoimg{
+    background-color: rgb(211, 242, 232);
+    border-radius: 25px;
+    margin: 20px;
+    padding: 20px;
 }
