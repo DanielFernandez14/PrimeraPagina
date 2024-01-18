@@ -7,12 +7,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
+
+<body>
 <header>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav  id="navbar" class="navbar navbar-expand-lg bg-body-tertiary p-3">
             <div class="container-fluid">
-              <a class="navbar-brand fw-bold" href="#">Deptos Rio Santa Cruz</a>
+              <a class="navbar-brand fw-bold fs-2 text text-center" href="#">Depto Rio Santa Cruz</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -30,17 +32,20 @@
                   <li class="nav-item">
                     <a class="nav-link fw-bold" href="index.html#actividades_en_calafate">Pagina de Turismo Local</a>
                   </li>
+                  <li class="nav-item">
+                    <a class="nav-link fw-bold" aria-current="page" href="contacto.html">Contacto</a>
+                  </li>
                 </ul>
                 <form class="d-flex" role="search">
                   <input class="form-control me-2" type="Buscar" placeholder="Buscar" aria-label="Buscar">
-                  <button class="btn btn-outline-success" type="submit">Buscar</button>
+                  <button class="btn btn-primary btn-primary-outline-success" type="submit">Buscar</button>
                 </form>
               </div>
             </div>
           </nav>
 </header>         
    
-    <body>   
+       
             <!--*******************************************************************************-->
              <!--   CAROUSEL   -->
             
@@ -61,100 +66,115 @@
 
           <!--*******************************************************************-->
    
-        <main>      
-          <h1 class="deptoh1 border border-darksubtle">Departamento Río Santa Cruz</h1>
+        <main>  
+          <section id="section_departamento_rio_santa_cruz"> </section>   
+          <div class="w-75 mx-auto">
+          <div class="deptoh1 border border-darksubtle justify-content-center position-relative fs-2 fw-bold"> <img src="logoalojamientos/alojamientos turismo.png" alt="logo de alojamiento"> Departamento Río Santa Cruz </div>
+          <!--
+            *********************************** reveer con el nico ***************************
+          -->
             <p class="deptoh1p">    ¡Bienvenido a Departamentos Río Santa Cruz en El Calafate, Argentina! Nuestro alojamiento es un acogedor apartamento con vistas a la montaña, ubicado a solo 5,9 km del lago Argentino. Con capacidad para 2/3 adultos, este apartamento es perfecto para parejas que deseen disfrutar de unas vacaciones tranquilas y relajantes.El apartamento cuenta con una habitación bien iluminada y cálida, un baño cómodo, cocina-comedor con vista al lago e isla solitaria y un patio con vistas a la ciudad. Equipado con todas las comodidades necesarias, como TV de pantalla plana vía satélite, WiFi gratuito, y cocina totalmente equipada, te sentirás como en casa durante tu estadía. Además, el alojamiento ofrece parking privado gratuito y está ubicado cerca del centro comercial de la localidad, lo que te permitirá explorar fácilmente las atracciones y paisajes impresionantes que ofrece El Calafate.
             El Alquiler de Departamento Río Santa Cruz en El Calafate, Argentina, (Santa Cruz) [Patagonia] es una excelente posibilidad para los meses de Diciembre, Enero, Febrero, ó las vacaciones ó días de descanso de la temporada que se avecina.
             </p>
-              
+          </div>
             <section id="galeria" class="container">
                 <div class="text-center pt-5">
                    <h1>Galería</h1>
-                   <p>Conoce nuestro alojamiento</p>
+                   <p>Conocé nuestro alojamiento</p>
                 </div>
                 <div class="row">
                     <div class="col-lg-4">
-                        <img src="imagenes/patio.png.jpg" alt="">
+                        <img src="imagenes/patio.png.jpg" alt="patio">
                     </div>
                     <div class="col-lg-4">
-                        <img src="imagenes/frente.png.JPG" alt="">
+                        <img src="imagenes/frente.png.JPG" alt="frente">
                     </div>
                     <div class="col-lg-4">
-                        <img src="imagenes/vistapatio.png.jpg" alt="">
+                        <img src="imagenes/vistapatio.png.jpg" alt="vista al patio">
                     </div>
                     <div class="col-lg-4">
-                        <img src="imagenes/vistalago.png.jpg" alt="">
+                        <img src="imagenes/vistalago.png.jpg" alt="vista al lago">
                     </div>
                     <div class="col-lg-4">
-                        <img src="imagenes/dormitorio2.png.jpg" alt="">
+                        <img src="imagenes/dormitorio2.png.jpg" alt="dormitorio">
                     </div>
                     <div class="col-lg-4">
-                        <img src="imagenes/dormitorio.png.jpg" alt="">
+                        <img src="imagenes/dormitorio.png.jpg" alt="dormitorio">
                     </div>
                     <div class="col-lg-4">
-                        <img src="imagenes/comedor2.png.jpg" alt="">
+                        <img src="imagenes/comedor2.png.jpg" alt="comedor">
                     </div>
                     <div class="col-lg-4">
-                        <img src="imagenes/comedor.png.jpg" alt="">
+                        <img src="imagenes/comedor.png.jpg" alt="cocina-comedor">
                     </div>
                     <div class="col-lg-4">
-                        <img src="imagenes/cocina.png.jpg" alt="">
+                        <img src="imagenes/cocina.png.jpg" alt="cocina">
                     </div>
                 </div>
-            </section>
+              </section>
 
+            <div> 
+              <div class="d-flex justify-content-center fs-1 ubicacion_del_alojamiento fw-bold"> Ubicación del Alojamiento</div>
+            </div>
+            <div class="d-flex justify-content-center ">
+            <div> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2546.1876482062244!2d-72.28069292278323!3d-50.3444053481514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbdbb0d3929530149%3A0xbeaaf16cef300459!2sDeptos%20Rio%20Santa%20Cruz!5e0!3m2!1ses-419!2sar!4v1705520970988!5m2!1ses-419!2sar" width="100%" height="450" style="border: 2px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+            </div>
+            
 <!--****************************************************************************-->
-
-             <section id="section_departamento_rio_santa_cruz"> </section>
-          <h2 class="acerca_de_el_calafate">Acerca de El Calafate</h2>
-          <p class="">El Calafate, llamado popularmente «Calafate», es una ciudad ubicada en la ribera meridional del lago Argentino, en la región de la Patagonia, en la provincia de Santa Cruz, Argentina, a unos 80 km del glaciar Perito Moreno. Es la cabecera del departamento Lago Argentino.
+            
+           <section id="acerca_de_el_calafate"></section>  
+          <div class="w-75 mx-auto">
+          <h2 class="acerca_de_el_calafate d-flex justify-content-center fw-bold">Acerca de El Calafate</h2>
+          <p class="d-flex justify-content-center p_texto_acercadefte"> El Calafate, llamado popularmente «Calafate», es una ciudad ubicada en la ribera meridional del lago Argentino, en la región de la Patagonia, en la provincia de Santa Cruz, Argentina, a unos 80 km del glaciar Perito Moreno. Es la cabecera del departamento Lago Argentino.
 
             El Calafate es una de las tres principales ciudades de la provincia de Santa Cruz por su población, detrás de las ciudades de Río Gallegos y Caleta Olivia. Se encuentra a unos 320 km al noroeste de la capital provincial, Río Gallegos.
             
             Debe su notoriedad por ser la puerta de acceso al parque nacional Los Glaciares, el cual posee atractivos turísticos como el glaciar Perito Moreno, el glaciar Upsala, y el cerro Fitz Roy, entre otros, todos propios de la región oriental del campo de hielo Patagónico Sur y lindantes al parque nacional Torres del Paine de Chile.</p>
-
+          </div>
 
             <section id="galeria" class="container">
               <div class="text-center pt-5">
-                 <h1>Galería Imagenes de Calafate</h1>
+                 <h1 class="fw-bold galeria_img_fte">Galería de Imágenes de Calafate</h1>
+
                  <p> Vistas de nuestra ciudad </p>
               </div>
             <div class="row">
               <div class="col-lg-4">
-                  <img src="imagenesacercadecalafate/aldea de los ñomo.jpg" alt="">
+                  <img src="imagenesacercadecalafate/aldea de los ñomo.jpg" alt="aldea de los ñomos">
               </div>
               <div class="col-lg-4">
-                  <img src="imagenesacercadecalafate/cabalgatas turismo.jpg" alt="">
+                  <img src="imagenesacercadecalafate/cabalgatas turismo.jpg" alt="cabalgatas">
               </div>
               <div class="col-lg-4">
-                  <img src="imagenesacercadecalafate/calafate aereo vista norte.jpg" alt="">
+                  <img src="imagenesacercadecalafate/calafate aereo vista norte.jpg" alt="calafate aereo vista norte">
               </div>
               <div class="col-lg-4">
-                  <img src="imagenesacercadecalafate/camion grande turismo.jpg" alt="">
+                  <img src="imagenesacercadecalafate/camion grande turismo.jpg" alt="gran camion de turismo">
               </div>
               <div class="col-lg-4">
-                  <img src="imagenesacercadecalafate/imagen aerea cerro calafate turismo.jpg" alt="">
+                  <img src="imagenesacercadecalafate/imagen aerea cerro calafate turismo.jpg" alt="imagen aerea cerro calafate">
               </div>
               <div class="col-lg-4">
-                  <img src="imagenesacercadecalafate/laguna nimez turismo.jpg" alt="">
+                  <img src="imagenesacercadecalafate/laguna nimez turismo.jpg" alt="laguna nimez">
               </div>
-
+            
 <!--****************************************************************************-->
-
-            <section id="acerca_de_el_calafate"></section>
-          <h2 class="acerca_del_glaciar_perito_moreno">Acerca del Glaciar Perito Moreno</h2>
-          <p>El glaciar Perito Moreno, glaciar Bismarck o glaciar Francisco Gormaz.es una gruesa masa de hielo ubicada en el departamento Lago Argentino de la provincia de Santa Cruz, en el sudoeste de la Argentina, en la región de la Patagonia, con una parte de su superficie ubicada en Natales, Chile. Se integra dentro del parque nacional Los Glaciares.
+        <div class="w-100 mx-auto">    
+          <section id="acerca_del_glaciar_perito_moreno"></section> 
+          <h2 class="acerca_del_glaciar_perito_moreno fw-bold">Acerca del Glaciar Perito Moreno</h2>
+        </div>
+          <p class="justify-content-center acerca_del_glaciar_perito_morenotext">El glaciar Perito Moreno, glaciar Bismarck o glaciar Francisco Gormaz.es una gruesa masa de hielo ubicada en el departamento Lago Argentino de la provincia de Santa Cruz, en el sudoeste de la Argentina, en la región de la Patagonia, con una parte de su superficie ubicada en Natales, Chile. Se integra dentro del parque nacional Los Glaciares.
 
             Este glaciar se origina en el campo de hielo Patagónico Sur teniendo parte de su origen en la región de Magallanes y de la Antártica Chilena de Chile, integrando el Parque nacional Bernardo O'Higgins con el límite demarcado con el Acuerdo de 1998. En su descenso, alcanza el brazo Sur del lago Argentino, con un frente de 5 km de longitud, aflorando sobre el agua con una altura de unos 60 m.
             
             Gracias a su constante avance, forma una represa con las aguas del brazo Rico de dicho lago, lo cual genera un desnivel con respecto al resto del lago de hasta 30 m. Por la presión de esta masa líquida se producen filtraciones en el hielo que crean un túnel con una bóveda de más de 50 m de altura. El derrumbe de esta bóveda constituye un inusual espectáculo natural y es uno de los mayores atractivos del parque.
             
             El nombre del glaciar hace honor a Francisco Moreno, director del museo de la Sociedad Científica Argentina y activo explorador de la zona austral de ese país.</p>
-            <section id="acerca_del_glaciar_perito_moreno"></section>
+            
 
             <section id="galeria" class="container">
               <div class="text-center pt-5">
-                 <h1 class="acerca_del_glaciar_perito_morenoimg text-center">En el Perito Moreno</h1>
+                 <h1 class="acerca_del_glaciar_perito_morenoimg text-center fw-bold">En el Perito Moreno</h1>
                  <p></p>
               </div>
             <div class="row">
@@ -179,19 +199,65 @@
 
 <!--****************************************************************************-->
 
-            <h2 class="actividades_en_calafate">Pagina de Turismo Local</h2>
+            <h2 class="actividades_en_calafate"><a href="https://www.elcalafate.tur.ar/" target="_blank"> Página de Secretaria de Turismo</a></h2>
             <section id="actividades_en_calafate"></section>
             
-            <div> <a href="https://www.elcalafate.tur.ar/" target="_blank"> Link a la Página de Secretaria de Turismo</a> </div>
+            <div class="text-center">  </div>
+
             
-            
+            <div class="text-end"><a class="text-end class_volver_a_inicio" href="#navbar">Volver a Inicio</a></div>
               
         </main>    
-    </body>   
+      
 
- <!--****************************************************************************-->   
+    <div>
+    <footer class="d-flex flex-wrap justify-content-center bg-black container-fluid">
+        
+          
+        <div class=""><img height="100px" width="160px" src="logosfooter/EL_CALAFATE_LOGO blanco-01-01 turismo.png" alt=""></div>
+        <div class=""><img height="100px" width="160px" src="logosfooter/Ente mixto logo turismo.png" alt=""></div>
+        <div class="p-3"><img height="65px" width="100px" src="logosfooter/ID_MPA_escarapela-hz_RGB turismo.png" alt=""></div>
+        <div class="p-3"><img height="70px" width="90px" src="logosfooter/parques-nacionales turismo.png" alt=""></div>
+        
+        <div class="d-flex justify-content-center">© 2024. Este alojamiento se encuentra bajo habilitación Municipal y de Turismo Local.</div>
+         
+    </div>
+        
+    </footer>
+    </body>
 
-<footer class="piedepagina d-flex justify-content-center">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!--****************************************************************************   
+
+<footer class="piedepagina">
+
+        <div>© 2024. Este alojamiento se encuentra bajo habilitación Municipal y de Turismo Local.</div>
+      <section class="container-fluid footer_section  d-flex flex-row">
        <div class="imagenesfooter"> 
         <img width="200px, 180px" src="logosfooter/EL_CALAFATE_LOGO blanco-01-01 turismo.png" alt="logo de calafate blanco"> 
       </div> 
@@ -202,12 +268,13 @@
         <img width="200px, 180px" src="logosfooter/ID_MPA_escarapela-hz_RGB turismo.png" alt="escarapela argentina"> 
       </div>
       <div class="imagenesfooter"> 
-        <img width="150px, 150px" src="logosfooter/parques-nacionales turismo.png" alt="logo de parques nacionales"> 
+        <img width="100px, 100px" src="logosfooter/parques-nacionales turismo.png" alt="logo de parques nacionales"> 
       </div>
       <div class="imagenesfooter"> 
-        <img width="150px, 150px" src="logosfooter/SELLO TODXS BIENVENIDXS - COLOR - Fondo transparente turismo.png" alt="logo lgbt"> 
+        <img width="100px, 100px" src="logosfooter/SELLO TODXS BIENVENIDXS - COLOR - Fondo transparente turismo.png" alt="logo lgbt">
       </div>
-
+      </section>
+-->
 
 </footer>
 </html>

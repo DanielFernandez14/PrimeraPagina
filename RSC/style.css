@@ -3,6 +3,7 @@
 }
 body{
     background: radial-gradient(circle, #fff, #bbb);
+    
  }
 
 
@@ -30,7 +31,7 @@ body{
 
 .deptoh1{
     display: flex;
-    justify-content: center;
+    justify-content: end;
     background-color: beige;
     border-radius: 20px;
     margin: 20px;
@@ -40,17 +41,39 @@ body{
     background-color: lightslategray;
     margin: 20px;
     padding: 20px;
-
+    border-radius: 25px;
 }
-.acerca_de_el_calafate{
+
+.ubicacion_del_alojamiento{
     display: flex;
-    text-align: center;
     justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: beige;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.acerca_de_el_calafate{
+    margin: 20px;
+    padding: 20px;
     background-color: beige;
     border-radius: 25px;
+}
+.p_texto_acercadefte{
+    background-color: lightslategray;
+    border-radius: 10px;
     margin: 20px;
     padding: 20px;
 }
+
+.galeria_img_fte{
+    background-color: beige;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 25px;
+}
+
 .acerca_del_glaciar_perito_moreno{
     margin: 20px;
     padding: 20px;
@@ -58,6 +81,13 @@ body{
     display: flex;
     justify-content: center;
     border-radius: 25px;
+}
+
+.acerca_del_glaciar_perito_morenotext{
+    background-color: lightslategray;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
 }
 .actividades_en_calafate{
     display: flex;
@@ -71,9 +101,24 @@ body{
     background-color: black;
     font-size: 10px;
 }
+
 .acerca_del_glaciar_perito_morenoimg{
     background-color: rgb(211, 242, 232);
     border-radius: 25px;
     margin: 20px;
     padding: 20px;
+}
+
+.footer_class_contacto{
+    position: absolute;
+    bottom: 0;
+}
+.cuerpo{
+    position: relative;
+    padding-bottom: 6em;
+    min-height: 100vh;
+}
+.class_volver_a_inicio{
+    margin: 10px;
+    padding: 10px;
 }
